@@ -1,8 +1,7 @@
 {
-  "name": "dayzed",
-  "version": "2.2.0",
-  "description":
-    "Primitives to build simple, flexible, WAI-ARIA compliant React datepicker components.",
+  "name": "@chrisdhanaraj/dayzed",
+  "version": "2.3.0",
+  "description": "Primitives to build simple, flexible, WAI-ARIA compliant React datepicker components.",
   "main": "dist/dayzed.cjs.js",
   "jsnext:main": "dist/dayzed.esm.js",
   "module": "dist/dayzed.esm.js",
@@ -17,21 +16,18 @@
     "storybook:serve": "serve ./storybook-static -p 9001",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "test:cypress":
-      "npm run build-storybook; npm-run-all --parallel --race storybook:serve cypress:run",
+    "test:cypress": "npm run build-storybook; npm-run-all --parallel --race storybook:serve cypress:run",
     "precommit": "kcd-scripts precommit"
   },
-  "files": ["dist", "preact"],
-  "peerDependencies": {
-    "date-fns": ">=1",
-    "prop-types": ">=15",
-    "react": ">=15"
-  },
+  "files": [
+    "dist",
+    "preact"
+  ],
   "devDependencies": {
     "@storybook/react": "^3.2.12",
     "all-contributors-cli": "^4.11.1",
     "cypress": "^2.1.0",
-    "date-fns": "^1.29.0",
+    "date-fns": "^2.0.0-alpha.27",
     "kcd-scripts": "^0.37.0",
     "npm-run-all": "^4.1.2",
     "preact": "^8.2.5",
