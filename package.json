@@ -1,10 +1,10 @@
 {
   "name": "@chrisdhanaraj/dayzed",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Primitives to build simple, flexible, WAI-ARIA compliant React datepicker components.",
-  "main": "dist/dayzed.cjs.js",
-  "jsnext:main": "dist/dayzed.esm.js",
-  "module": "dist/dayzed.esm.js",
+  "main": "dist/@chrisdhanaraj/dayzed.cjs.js",
+  "jsnext:main": "dist/@chrisdhanaraj/dayzed.esm.js",
+  "module": "dist/@chrisdhanaraj/dayzed.esm.js",
   "author": "Morgan Kartchner",
   "license": "MIT",
   "scripts": {
